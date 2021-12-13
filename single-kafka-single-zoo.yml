@@ -9,7 +9,7 @@ services:
     ports:
       - 2181:2181
     volumes:
-      - ~/docker-data/cp-zoo/var:/var/
+      - ~/docker-data/cp-kafka/var:/var/
   
   kafka:
     depends_on:
